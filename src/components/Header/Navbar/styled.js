@@ -8,7 +8,7 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -29,7 +29,7 @@ export const StyledLink = styled.a`
   transition: all 150ms linear 0s;
   position: relative;
 
-  &::after {
+  /* &::after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -41,5 +41,5 @@ export const StyledLink = styled.a`
     border-radius: 4px;
     -webkit-transition: width 0.25s;
     transition: width 0.25s;
-  }
+  } */
 `;

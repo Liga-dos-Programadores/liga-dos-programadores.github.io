@@ -2,9 +2,9 @@ import React from "react";
 
 import * as S from "./styled";
 
-export default function Menu() {
+export default function Menu ({ open }) {
   return (
-    <S.Nav>
+    <S.Nav open={open}>
       <ul>
         <li>
           <S.StyledLink activeClassName="is-active" to="/" exact>
@@ -26,7 +26,7 @@ export default function Menu() {
 
         <li>
           <S.StyledLink activeClassName="is-active" to="/codiga" exact>
-            Codiga
+            LigaCode
           </S.StyledLink>
         </li>
       </ul>
