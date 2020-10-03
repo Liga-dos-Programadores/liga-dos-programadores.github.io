@@ -14,19 +14,19 @@ export default function SocialLinks() {
       <ul>
         <li>
           <S.Link href={githuburl} target="_blank" alt="Github Liga">
-            <FaGithub size="40px"/>
+            <FaGithub size="36px"/>
           </S.Link>
         </li>
 
         <li>
             <S.Link href={twitterurl} target="_blank" alt="Twitter Liga">
-              <FaTwitter size="40px"/>
+              <FaTwitter size="36px"/>
             </S.Link>
         </li>
 
         <li>
           <S.Link href={discordurl} target="_blank" alt="Discord Liga">
-            <FaDiscord size="40px"/>
+            <FaDiscord size="36px"/>
           </S.Link>
         </li>
       </ul>

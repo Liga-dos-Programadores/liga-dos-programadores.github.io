@@ -35,7 +35,8 @@ export const StyledLink = styled.a`
     color: var(--color-blue);
   }
 
-  padding: 0 1em 0 1em;
+  padding-left: 30px;
   transition: all 150ms linear 0s;
   position: relative;
+  cursor: pointer;
 `;

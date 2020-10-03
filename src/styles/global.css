@@ -9,5 +9,6 @@ html, body, #root {
 }
 
 body {
+  font-family: 'IBM Plex Sans', sans-serif;
   background: var(--color-background);
 }

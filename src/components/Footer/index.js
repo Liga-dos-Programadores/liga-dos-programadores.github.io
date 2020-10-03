@@ -1,20 +1,24 @@
 import React from "react";
 
-import LigaLogo from "../LigaLogo/styled";
+import LigaLogo from "../LigaLogo/index";
 import SocialLinks from "../Footer/SocialLinks/index";
 
 import * as S from "./styled";
 
 export default function Footer() {
   return (
-    <S.Ft>
+    <S.FooterContainer>
       <S.Up>
-        <LigaLogo to="/" exact />
+        <S.Logo>
+          <LigaLogo to="/" exact />
+          Liga dos Programadores
+        </S.Logo>
 
         <SocialLinks />
-
-        <S.Copyright>Copyright © 2020 Liga dos Programadores</S.Copyright>
       </S.Up>
-    </S.Ft>
+      <S.Down>
+        <S.Copyright>Copyright © 2020 Liga dos Programadores</S.Copyright>
+      </S.Down>
+    </S.FooterContainer>
   );
 }

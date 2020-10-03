@@ -8,7 +8,7 @@ export const Social = styled.div`
 `;
 
 export const Link = styled.a`
-  size:40px;
+  padding-left: 55px;
   color: var(--color-white);
   transition: all 150ms linear 0s;
   :hover {
