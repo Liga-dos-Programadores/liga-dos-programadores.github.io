@@ -5,6 +5,13 @@ export const Social = styled.div`
     display: flex;
     flex-direction: row;
   }
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
 `;
 
 export const Link = styled.a`
@@ -14,5 +21,9 @@ export const Link = styled.a`
   :hover {
     color: var(--color-blue);
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
   }
 `;

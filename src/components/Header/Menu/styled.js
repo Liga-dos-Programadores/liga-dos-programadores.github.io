@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     display: flex;
     flex-flow: row nowrap;
     font-size: 1.2em;
-
+    
     @media (max-width: 768px) {
       flex-flow: column nowrap;
       background: var(--color-background-dark);
@@ -16,9 +16,11 @@ export const Nav = styled.nav`
       left: 0;
       align-items: center;
       justify-content: center;
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
       overflow: none;
+      z-index: 20;
+     
 
       transition: transform 0.3s ease-in-out;
       transform: ${ ({ open }) => open ? 'translateX(0)' : 'translateX(100%)' }

@@ -2,19 +2,28 @@ import styled from "styled-components";
 
 
 export const FooterContainer = styled.footer`
-  padding: 40px 0;
+  width: 100%;
+  padding: 40px 140px;
   display: flex;
   flex-direction: column;
  
   color: var(--color-white);
   background: var(--color-background-dark);
 
+  @media (max-width: 768px) {
+    padding: 40px 20px;
+  }
 `;
 
 export const Up = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+ 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Logo = styled.div`
@@ -33,7 +42,7 @@ export const Down = styled.div`
 export const Copyright = styled.div`
   opacity: .4;
   font-weight: 500;
-  
+  margin-top: 20px;
 `;
 
 export const StyledLink = styled.a`

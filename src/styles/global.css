@@ -4,11 +4,23 @@
   box-sizing: border-box;
 }
 
-html, body, #root {
-  height: 100vh;
+/* html, body, #root {
+
+} */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+html,
 body {
+  height: 100vh;
   font-family: 'IBM Plex Sans', sans-serif;
+  text-rendering: optimizelegibility;
   background: var(--color-background);
+  color: #DDDDDD;
+  -webkit-font-smoothing: antialiased;
 }

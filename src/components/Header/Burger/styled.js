@@ -6,7 +6,7 @@ export const Burger = styled.div`
   top: 15px;
   right: 20px;
   padding: 0;
-  z-index: 20;
+  z-index: 30;
   display: none;
 
   @media(max-width: 768px) {
