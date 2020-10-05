@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const TextContainer = styled.h1`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const Title = styled.h1`
   font-size: 4.5rem;
   line-height: 6.8rem;
