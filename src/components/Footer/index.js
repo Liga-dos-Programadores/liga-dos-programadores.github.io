@@ -1,7 +1,7 @@
 import React from "react";
 
-import LigaLogo from "../LigaLogo/index";
-import SocialLinks from "../Footer/SocialLinks/index";
+import LigaLogo from "../Logo";
+import SocialMedia from "../Footer/SocialMedia";
 
 import * as S from "./styled";
 
@@ -14,10 +14,10 @@ export default function Footer() {
           Liga dos Programadores
         </S.Logo>
 
-        <SocialLinks />
+        <SocialMedia />
       </S.Up>
       <S.Down>
-        <S.Copyright>Copyright © 2020 Liga dos Programadores</S.Copyright>
+        <S.Copyright>Copyright © 2021 Liga dos Programadores</S.Copyright>
       </S.Down>
     </S.FooterContainer>
   );

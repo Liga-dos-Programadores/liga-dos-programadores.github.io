@@ -2,7 +2,7 @@ import React from "react";
 
 import * as S from "./styled"
 
-export default function TerminalIcon() {
+export default function Polygons() {
   return (
     <S.Icon/>
   );

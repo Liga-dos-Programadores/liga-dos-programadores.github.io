@@ -6,9 +6,7 @@ export default function Text() {
   return (
     <S.TextContainer>
       <S.Title>
-        <h1>
           Uma comunidade onde todos podem compartilhar seus conhecimentos.
-        </h1>
       </S.Title>
       <S.Description>
         Seja você iniciante ou experiente em programação, entusiasta ou

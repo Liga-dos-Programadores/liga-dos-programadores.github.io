@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Logo from "../../LigaLogo/index";
-
-import Burger from '../Burger/index';
+import Logo from '../../Logo';
+import Burger from '../Burger';
 
 import * as S from "./styled";
 
 export default function Navbar() {
   return (
-      <S.Header>
-        <Logo to="/" exact/>
-        <Burger />
-      </S.Header>
+    <S.Header>
+      <Logo to="/" exact />
+      <Burger />
+    </S.Header>
   );
 }

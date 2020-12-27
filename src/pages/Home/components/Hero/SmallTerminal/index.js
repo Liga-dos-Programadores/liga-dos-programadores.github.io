@@ -1,6 +1,7 @@
 import React from "react";
+import Typical from 'react-typical';
 
-import TerminalIcon from '../TerminalIcon';
+import TerminalIcons from '../../../../../components/Polygons';
 
 import * as S from "./styled";
 
@@ -8,11 +9,9 @@ export default function SmallTerminal() {
   return (
     <S.Terminal>
       <S.TerminalMenu>
-        <TerminalIcon />
+        <TerminalIcons />
       </S.TerminalMenu>
       <S.Screen>
-        <span className="prompt">$</span><span className="codeblock"></span>
-        <S.Underscore id="console">&#95;</S.Underscore>
       </S.Screen>
     </S.Terminal>
   );
