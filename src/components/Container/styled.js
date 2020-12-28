@@ -1,8 +1,18 @@
 import styled from 'styled-components';
 
 export const ContainerWrapper = styled.div`
-  width: 100%;
-  padding: 35px 140px;
-  margin: auto;
-  display: flex;
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: var(--color-background);
+
+  @media (max-width: 1124px) {
+    max-width: 850px;
+    flex-direction: column;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 300px;
+    flex-direction: column;
+  }
 `;

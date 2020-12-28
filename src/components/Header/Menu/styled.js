@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
+  @media (max-width: 768px) {
+    display: contents;
+  }
+
   ul {
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
     font-size: 1.2em;
-    
+
     @media (max-width: 768px) {
       flex-flow: column nowrap;
       background: var(--color-background-dark);
@@ -20,11 +24,9 @@ export const Nav = styled.nav`
       height: 100%;
       overflow: none;
       z-index: 20;
-     
 
       transition: transform 0.3s ease-in-out;
-      transform: ${ ({ open }) => open ? 'translateX(0)' : 'translateX(100%)' }
-    
+      transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     }
   }
 `;
@@ -41,4 +43,8 @@ export const StyledLink = styled.a`
   transition: all 150ms linear 0s;
   position: relative;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    padding: 0; 
+  }
 `;

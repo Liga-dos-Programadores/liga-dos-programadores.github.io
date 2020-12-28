@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Menu from "../Menu";
+import Menu from '../Menu';
 
-import * as S from "./styled";
+import * as S from './styled';
 
 export default function Burger() {
   const [open, setOpen] = useState(false);

@@ -4,7 +4,7 @@ import { FaGithub, FaTwitter, FaDiscord } from 'react-icons/fa';
 
 import * as S from "./styled";
 
-export default function SocialLinks() {
+export default function SocialMedia() {
   let githuburl = "https://github.com/Liga-dos-Programadores";
   let twitterurl = "https://twitter.com/LDProgramadores";
   let discordurl = "https://discord.com/invite/fmnxSYR";
