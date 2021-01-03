@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContainerWrapper = styled.div`
   width: 90%;
-  max-width: 1400px;
+  max-width: 1250px;
   margin: 0 auto;
   background-color: var(--color-background);
 

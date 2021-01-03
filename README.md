@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.png" alt="Liga" />
+  <img src="./src/assets/images/logo.png" alt="Liga" />
 
 &#xa0;
 

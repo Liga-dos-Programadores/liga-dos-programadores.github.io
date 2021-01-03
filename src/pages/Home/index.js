@@ -5,6 +5,7 @@ import Header from '../../components/Header/NavBar';
 import Footer from '../../components/Footer';
 import Hero from './components/Hero';
 import Comunity from './components/Comunity';
+import Projects from './components/Projects';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Comunity />
+      <Projects />
     </Container>
     <Footer />
     </>

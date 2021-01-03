@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
-
 export const FooterContainer = styled.footer`
   width: 100%;
-  padding: 40px 140px;
+  padding: 40px 220px;
   display: flex;
   flex-direction: column;
- 
   color: var(--color-white);
   background: var(--color-background-dark);
 
