@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const TerminalContainer = styled.div`
   display: flex;
@@ -52,4 +52,4 @@ export const Icons = styled.div`
 export const Icon = styled.ul`
   display: flex;
   margin: 20px 0;
-`
+`;

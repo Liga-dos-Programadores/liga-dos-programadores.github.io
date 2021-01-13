@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
 import BigTerminal from './BigTerminal';
 import Text from './Text';
 
-import * as S from "./styled";
+import * as S from './styled';
+
+// import { ComunityTitle, ComunityContainer } from './styled';
 
 export default function Features() {
   return (
@@ -14,6 +16,5 @@ export default function Features() {
         <Text />
       </S.ComunityContainer>
     </>
-    
   );
 }

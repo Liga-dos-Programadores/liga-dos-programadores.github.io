@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Burger = styled.div`
+const BurgerComponent = styled.div`
   width: 2rem;
   height: 2rem;
   top: 15px;
@@ -9,12 +9,12 @@ export const Burger = styled.div`
   z-index: 30;
   display: none;
 
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
- 
+
   div {
     width: 2rem;
     height: 0.25rem;
@@ -24,15 +24,19 @@ export const Burger = styled.div`
     transition-duration: 0.3s;
 
     &:nth-child(1) {
-      transform: ${({ open }) => open ? 'rotate(45deg) translate(8px, 8px) ' : 'rotate(0)'};
+      transform: ${({ open }) =>
+        open ? 'rotate(45deg) translate(8px, 8px) ' : 'rotate(0)'};
     }
 
     &:nth-child(2) {
-      opacity: ${({ open }) => open ? 0 : 1};
+      opacity: ${({ open }) => (open ? 0 : 1)};
     }
 
     &:nth-child(3) {
-      transform: ${({ open }) => open ? 'rotate(-45deg) translate(7px, -7px)' : 'rotate(0)'};
+      transform: ${({ open }) =>
+        open ? 'rotate(-45deg) translate(7px, -7px)' : 'rotate(0)'};
     }
   }
 `;
+
+export default BurgerComponent;

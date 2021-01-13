@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ComunityTitle = styled.h2`
   text-align: center;
   font-size: 30px;
-  font-weight:  600;
+  font-weight: 600;
   margin-bottom: 100px;
   color: var(--color-white);
 `;

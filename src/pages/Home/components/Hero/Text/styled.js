@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const TextContainer = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export const Description = styled.p`
   font-size: 23px;
   line-height: 2.5rem;
   margin: 10px 0;
-  
+
   @media (max-width: 768px) {
     font-size: 20px;
     line-height: 2rem;
@@ -44,7 +44,7 @@ export const Button = styled.a`
     background-color: var(--color-blue-light);
     cursor: pointer;
   }
-  
+
   @media (max-width: 768px) {
     width: 82%;
   }

@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from '../../Logo';
 import Burger from '../Burger';
 
-import * as S from "./styled";
+import * as S from './styled';
 
 export default function Navbar() {
   return (

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import LigaLogo from "../Logo";
-import SocialMedia from "../Footer/SocialMedia";
+import LigaLogo from '../Logo';
+import SocialMedia from './SocialMedia';
 
-import * as S from "./styled";
+import * as S from './styled';
 
 export default function Footer() {
   return (

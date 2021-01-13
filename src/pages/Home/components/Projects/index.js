@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import Text from './Text';
 import Projects from './Projects';
@@ -14,6 +14,5 @@ export default function Features() {
         <Projects />
       </S.ProjectsContainer>
     </>
-    
   );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import People from './People';
 
@@ -12,6 +12,5 @@ export default function Features() {
         <People />
       </S.TeamContainer>
     </>
-    
   );
 }

@@ -10,13 +10,13 @@ import Projects from './components/Projects';
 export default function Home() {
   return (
     <>
-    <Container>
-      <Navbar />
-      <Hero />
-      <Comunity />
-      <Projects />
-    </Container>
-    <Footer />
+      <Container>
+        <Navbar />
+        <Hero />
+        <Comunity />
+        <Projects />
+      </Container>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContainerWrapper = styled.div`
+const ContainerWrapper = styled.div`
   width: 90%;
   max-width: 1250px;
   margin: 0 auto;
@@ -16,3 +16,5 @@ export const ContainerWrapper = styled.div`
     flex-direction: column;
   }
 `;
+
+export default ContainerWrapper;

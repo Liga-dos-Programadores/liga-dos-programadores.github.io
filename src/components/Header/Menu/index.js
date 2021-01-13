@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import * as S from "./styled";
+import * as S from './styled';
 
-export default function Menu ({ open }) {
+function Menu({ open }) {
   return (
     <S.Nav open={open}>
       <ul>
@@ -33,3 +34,14 @@ export default function Menu ({ open }) {
     </S.Nav>
   );
 }
+
+Menu.propTypes = {
+  open: PropTypes.bool.isRequired
+};
+
+// TODO nao sei talvez false
+// Menu.defaultProps = {
+//   open: true
+// };
+
+export default Menu;
