@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.io/liga-dos-programadores/liga",
-  
+  "homepage": "https://liga-dos-programadores.github.io",
+
   "name": "liga-dos-programadores",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean"
   },
   "eslintConfig": {
     "extends": [
