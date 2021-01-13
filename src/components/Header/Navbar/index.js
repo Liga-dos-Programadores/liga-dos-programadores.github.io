@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Logo from '../../Logo';
-import Burger from '../Burger';
+import Logo from '@components/Logo';
+import Burger from '@components/Header/Burger';
 
 import * as S from './styled';
 

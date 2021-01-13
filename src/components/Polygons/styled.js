@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import icon from '../../assets/images/polygons.png';
+import icon from '@assets/images/polygons.png';
 
 const Icon = styled.img.attrs({ src: icon, alt: 'Icons polygons' })`
   height: 16px;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LigaLogo from '../Logo';
+import LigaLogo from '@components/Logo';
 import SocialMedia from './SocialMedia';
 
 import * as S from './styled';

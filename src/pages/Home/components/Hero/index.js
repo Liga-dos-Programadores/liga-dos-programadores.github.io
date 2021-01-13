@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 
-import TerminalIcons from '../../../../components/Polygons';
+import TerminalIcons from '@components/Polygons';
 import Text from './Text';
 
 import './terminal.css';

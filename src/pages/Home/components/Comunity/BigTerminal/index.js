@@ -6,7 +6,7 @@ import { FaRegCommentDots } from 'react-icons/fa';
 import { BiBook } from 'react-icons/bi';
 import { AiOutlineFlag } from 'react-icons/ai';
 
-import Polygons from '../../../../../components/Polygons';
+import Polygons from '@components/Polygons';
 
 import * as S from './styled';
 
