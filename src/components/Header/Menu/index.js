@@ -39,9 +39,4 @@ Menu.propTypes = {
   open: PropTypes.bool.isRequired
 };
 
-// TODO nao sei talvez false
-// Menu.defaultProps = {
-//   open: true
-// };
-
 export default Menu;

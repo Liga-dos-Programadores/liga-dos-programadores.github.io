@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import icon from '@assets/images/polygons.png';
+import polygonImage from '@assets/images/polygons.png';
 
-const Icon = styled.img.attrs({ src: icon, alt: 'Icons polygons' })`
+const Icon = styled.img.attrs({ src: polygonImage, alt: 'Icons polygons' })`
   height: 16px;
   position: relative;
   top: 8px;
