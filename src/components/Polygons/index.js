@@ -1,9 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import * as S from "./styled"
+import Icon from './styled';
 
 export default function Polygons() {
-  return (
-    <S.Icon/>
-  );
+  return <Icon />;
 }

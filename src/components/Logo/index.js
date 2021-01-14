@@ -1,9 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import * as S from "./styled"
+import Logo from './styled';
 
 export default function LigaLogo() {
-  return (
-    <S.Logo to="/" exact/>
-  );
+  return <Logo to="/" exact />;
 }

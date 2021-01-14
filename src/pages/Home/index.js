@@ -1,22 +1,22 @@
 import React from 'react';
 
-import Container from '../../components/Container';
-import Navbar from '../../components/Header/Navbar';
-import Footer from '../../components/Footer';
+import Container from '@components/Container';
+import Navbar from '@components/Header/Navbar';
+import Footer from '@components/Footer';
 import Hero from './components/Hero';
-import Comunity from './components/Comunity';
+import Community from './components/Community';
 import Projects from './components/Projects';
 
 export default function Home() {
   return (
     <>
-    <Container>
-      <Navbar />
-      <Hero />
-      <Comunity />
-      <Projects />
-    </Container>
-    <Footer />
+      <Container>
+        <Navbar />
+        <Hero />
+        <Community />
+        <Projects />
+      </Container>
+      <Footer />
     </>
   );
 }

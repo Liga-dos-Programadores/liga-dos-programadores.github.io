@@ -1,9 +1,14 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import * as S from "./styled";
+import ContainerWrapper from './styled';
 
-export default function Container(props) {
-  return (
-  <S.ContainerWrapper>{props.children}</S.ContainerWrapper>
-  );
+function Container({ children }) {
+  return <ContainerWrapper>{children}</ContainerWrapper>;
 }
+
+Container.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
+export default Container;

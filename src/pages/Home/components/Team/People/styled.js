@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
-import projecta from '../../../../../assets/images/project-a.png';
+import projecta from '@assets/images/project-a.png';
 
-export const Projecta = styled.img.attrs({ src: projecta , alt: 'Logo do Project A' })`
+export const Projecta = styled.img.attrs({
+  src: projecta,
+  alt: 'Logo do Project A'
+})`
   height: 130px;
 `;
 

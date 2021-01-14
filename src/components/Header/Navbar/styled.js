@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Header = styled.header`
   width: 100%;
@@ -23,7 +23,7 @@ export const StyledLink = styled.a`
   &.is-active {
     color: var(--color-blue);
   }
-  
+
   padding: 0 1em 0 1em;
   transition: all 150ms linear 0s;
   position: relative;

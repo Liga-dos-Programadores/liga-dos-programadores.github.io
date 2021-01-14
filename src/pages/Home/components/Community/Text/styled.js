@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const TextContainer = styled.div`
   display: flex;
@@ -11,7 +11,7 @@ export const Description = styled.p`
   font-size: 23px;
   line-height: 2.5rem;
   text-align: left;
-  
+
   @media (max-width: 768px) {
     font-size: 20px;
     line-height: 2rem;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
   @media (max-width: 768px) {
@@ -26,7 +26,7 @@ export const Nav = styled.nav`
       z-index: 20;
 
       transition: transform 0.3s ease-in-out;
-      transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+      transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     }
   }
 `;
@@ -45,6 +45,6 @@ export const StyledLink = styled.a`
   cursor: pointer;
 
   @media (max-width: 768px) {
-    padding: 0; 
+    padding: 0;
   }
 `;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   width: 100%;
@@ -17,7 +17,7 @@ export const Up = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
- 
+
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
@@ -28,9 +28,9 @@ export const Logo = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  opacity: .4;
+  opacity: 0.4;
   font-weight: 500;
-`
+`;
 
 export const Down = styled.div`
   display: flex;
@@ -38,15 +38,15 @@ export const Down = styled.div`
 `;
 
 export const Copyright = styled.div`
-  opacity: .4;
+  opacity: 0.4;
   font-weight: 500;
   margin-top: 20px;
 `;
 
 export const StyledLink = styled.a`
-    text-decoration: none;
-    color: var(--white);
-    &.is-active {
-        color: var(--yellow);
-    }
+  text-decoration: none;
+  color: var(--white);
+  &.is-active {
+    color: var(--yellow);
+  }
 `;

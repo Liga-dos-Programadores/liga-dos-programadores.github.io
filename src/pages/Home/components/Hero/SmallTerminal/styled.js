@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Terminal = styled.div`
   display: flex;
@@ -6,7 +6,7 @@ export const Terminal = styled.div`
   margin-left: 191px;
   top: 0;
   right: 0;
-  
+
   @media (max-width: 768px) {
     margin: 0;
   }
@@ -35,7 +35,7 @@ export const Screen = styled.div`
   border-bottom-right-radius: 5px;
 
   .prompt {
-    color: #5F5F5E;
+    color: #5f5f5e;
     margin-right: 7px;
   }
 
