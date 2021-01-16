@@ -41,7 +41,7 @@ export const Button = styled.a`
   width: 40%;
   text-align: center;
   :hover {
-    background-color: var(--color-blue-light);
+    background-color: var(--color-light-blue);
     cursor: pointer;
   }
 

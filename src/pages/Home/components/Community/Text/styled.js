@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const TextContainer = styled.div`
-  display: flex;
   flex-direction: column;
   width: 500px;
 `;
@@ -15,5 +14,6 @@ export const Description = styled.p`
   @media (max-width: 768px) {
     font-size: 20px;
     line-height: 2rem;
+    padding-top: 3rem;
   }
 `;

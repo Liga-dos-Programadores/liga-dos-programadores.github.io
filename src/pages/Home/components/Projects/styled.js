@@ -10,8 +10,12 @@ export const ProjectsTitle = styled.h2`
 
 export const ProjectsContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   margin-top: 100px;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    margin-top: 50px;
+  }
 `;

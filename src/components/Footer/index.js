@@ -6,6 +6,10 @@ import SocialMedia from './SocialMedia';
 import * as S from './styled';
 
 export default function Footer() {
+  const firstYear = 2018;
+  const actualYear = new Date().getFullYear();
+  const copyRightString = `Copyright © ${firstYear}-${actualYear} Liga dos Programadores`;
+
   return (
     <S.FooterContainer>
       <S.Up>
@@ -17,7 +21,7 @@ export default function Footer() {
         <SocialMedia />
       </S.Up>
       <S.Down>
-        <S.Copyright>Copyright © 2021 Liga dos Programadores</S.Copyright>
+        <S.Copyright>{copyRightString}</S.Copyright>
       </S.Down>
     </S.FooterContainer>
   );

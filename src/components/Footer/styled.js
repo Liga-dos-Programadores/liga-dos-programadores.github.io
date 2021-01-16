@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const FooterContainer = styled.footer`
   width: 100%;
   padding: 40px 220px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   color: var(--color-white);
@@ -15,7 +16,6 @@ export const FooterContainer = styled.footer`
 
 export const Up = styled.div`
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 
   @media (max-width: 768px) {
@@ -26,7 +26,6 @@ export const Up = styled.div`
 
 export const Logo = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: center;
   opacity: 0.4;
   font-weight: 500;

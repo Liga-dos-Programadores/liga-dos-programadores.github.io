@@ -6,8 +6,13 @@ export default function Projects() {
   const projectA = 'https://github.com/Liga-dos-Programadores/Project-A';
 
   return (
-    <S.Link href={projectA} target="_blank" alt="Repositório do Project A">
-      <S.Projecta />
+    <S.Link
+      href={projectA}
+      target="_blank"
+      rel="noopener"
+      alt="Repositório do Project A"
+    >
+      <S.ProjectA />
     </S.Link>
   );
 }
