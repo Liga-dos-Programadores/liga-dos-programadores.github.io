@@ -2,8 +2,11 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
   display: flex;
-  flex-direction: row;
   margin-bottom: 100px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const TerminalContainer = styled.div`

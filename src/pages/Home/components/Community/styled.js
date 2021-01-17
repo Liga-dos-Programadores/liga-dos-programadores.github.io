@@ -6,11 +6,19 @@ export const CommunityTitle = styled.h2`
   font-weight: 600;
   margin-bottom: 100px;
   color: var(--color-white);
+
+  @media (max-width: 768px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const CommunityContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;

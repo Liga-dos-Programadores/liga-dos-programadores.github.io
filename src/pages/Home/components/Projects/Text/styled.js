@@ -14,6 +14,7 @@ export const Description = styled.p`
 
   @media (max-width: 768px) {
     font-size: 20px;
+    margin-bottom: 3rem;
     line-height: 2rem;
   }
 `;
