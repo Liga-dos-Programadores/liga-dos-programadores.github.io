@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.05a94b35.chunk.css",
-    "main.js": "/static/js/main.2f4205d5.chunk.js",
-    "main.js.map": "/static/js/main.2f4205d5.chunk.js.map",
+    "main.css": "/static/css/main.f1319468.chunk.css",
+    "main.js": "/static/js/main.31cdcc77.chunk.js",
+    "main.js.map": "/static/js/main.31cdcc77.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.739f87f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.739f87f6.js.map",
     "static/js/2.667834be.chunk.js": "/static/js/2.667834be.chunk.js",
     "static/js/2.667834be.chunk.js.map": "/static/js/2.667834be.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.05a94b35.chunk.css.map": "/static/css/main.05a94b35.chunk.css.map",
+    "static/css/main.f1319468.chunk.css.map": "/static/css/main.f1319468.chunk.css.map",
     "static/js/2.667834be.chunk.js.LICENSE.txt": "/static/js/2.667834be.chunk.js.LICENSE.txt",
     "static/media/logo-liga.9d7e9dcc.png": "/static/media/logo-liga.9d7e9dcc.png",
     "static/media/project-a.3b13dad1.png": "/static/media/project-a.3b13dad1.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.739f87f6.js",
     "static/js/2.667834be.chunk.js",
-    "static/css/main.05a94b35.chunk.css",
-    "static/js/main.2f4205d5.chunk.js"
+    "static/css/main.f1319468.chunk.css",
+    "static/js/main.31cdcc77.chunk.js"
   ]
 }
