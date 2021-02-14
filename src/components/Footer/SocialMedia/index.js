@@ -17,9 +17,9 @@ export default function SocialMedia() {
             href={gitHubUrl}
             target="_blank"
             rel="noopener"
-            alt="Github Liga"
+            alt="Github da Liga dos Programadores"
           >
-            <FaGithub size="36px" />
+            <FaGithub size="30px" />
           </S.Link>
         </li>
 
@@ -28,9 +28,9 @@ export default function SocialMedia() {
             href={twitterUrl}
             target="_blank"
             rel="noopener"
-            alt="Twitter Liga"
+            alt="Twitter da Liga dos Programadores"
           >
-            <FaTwitter size="36px" />
+            <FaTwitter size="30px" />
           </S.Link>
         </li>
 
@@ -39,9 +39,9 @@ export default function SocialMedia() {
             href={discordUrl}
             target="_blank"
             rel="noopener"
-            alt="Discord Liga"
+            alt="Discord da Liga dos Programadores"
           >
-            <FaDiscord size="36px" />
+            <FaDiscord size="30px" />
           </S.Link>
         </li>
       </ul>

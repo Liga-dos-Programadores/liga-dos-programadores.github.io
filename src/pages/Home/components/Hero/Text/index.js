@@ -3,6 +3,8 @@ import React from 'react';
 import * as S from './styled';
 
 export default function Text() {
+  const discordUrl = 'https://discord.com/invite/fmnxSYR';
+
   return (
     <S.TextContainer>
       <S.Title>
@@ -12,7 +14,14 @@ export default function Text() {
         Seja você iniciante ou experiente em programação, entusiasta ou
         curioso(a). Essa comunidade é para você!
       </S.Description>
-      <S.Button>Quero Fazer parte</S.Button>
+      <S.Button
+        href={discordUrl}
+        target="_blank"
+        rel="noopener"
+        alt="Discord da Liga dos Programadores"
+      >
+        Quero Fazer parte
+      </S.Button>
     </S.TextContainer>
   );
 }
