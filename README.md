@@ -1,88 +1,65 @@
 <div align="center" id="top"> 
-  <img src="./src/assets/images/logo.png" alt="Liga" />
-
+  <img src="./src/assets/images/liga-banner.png" alt="Liga dos Programadores - Banner" />
 &#xa0;
-
-  <!-- <a href="https://liga.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Liga</h1>
-
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/Liga-dos-Programadores/liga?color=56BEB8">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/Liga-dos-Programadores/liga?color=56BEB8">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Liga-dos-Programadores/liga?color=56BEB8">
-  <img alt="License" src="https://img.shields.io/github/license/Liga-dos-Programadores/liga?color=56BEB8">
-  <img alt="Github issues" src="https://img.shields.io/github/issues/Liga-dos-Programadores/liga?color=56BEB8" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/Liga-dos-Programadores/liga?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/Liga-dos-Programadores/liga?color=56BEB8" />
+  <a href="https://discord.gg/fmnxSYR" target="_blank">
+    <img src="https://img.shields.io/discord/366404358440615951?color=%2329C9FC&label=Liga%20dos%20Programadores&logo=discord&logoColor=%2329C9FC&style=flat-square" alt="Servidor da Liga dos Programadores">
+  </a>
+  <a href="https://github.com/Liga-dos-Programadores/Project-A/network/members" target="_blank">
+    <img src="https://img.shields.io/github/contributors/Liga-dos-Programadores/liga-dos-programadores.github.io?color=%2329C9FC&label=Contribuidores&logo=Github&style=flat-square" alt="Contribuidores" />
+  </a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+    <img alt="License" src="https://img.shields.io/github/license/Liga-dos-Programadores/liga?color=%2329C9FC&label=Licença&logo=Github&style=flat-square">
+  </a>
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/Liga-dos-Programadores/liga?color=%2329C9FC&label=Tamanho do repositório&style=flat-square">
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center">
-	🚧  Liga 🚀 Under construction...  🚧
-</h4>
-
-<hr> -->
-
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <!-- <a href="#sparkles-features">Features</a> &#xa0; | &#xa0; -->
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/Liga-dos-Programadores" target="_blank">Author</a>
+  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
 </p>
 
 <br>
 
-## :dart: About
+## :dart: Sobre
 
-This is the official Liga dos Programadores page
+Essa é página oficial da Liga dos Programadores
 
-<!-- ## :sparkles: Features
+## :rocket: Tecnologias
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3; -->
-
-## :rocket: Technologies
-
-The following tools were used in this project:
+As tecnologias que estão sendo usadas nesse projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 
-## :white_check_mark: Requirements
+## :white_check_mark: Requerimentos
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de começar :checkered_flag:, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalado em sua máquina.
 
-## :checkered_flag: Starting
+## :checkered_flag: Começando
 
 ```bash
-# Clone this project
+# Clone esse projeto
 $ git clone https://github.com/Liga-dos-Programadores/liga
 
-# Access
+# Acesse
 $ cd liga
-# Install dependencies
+
+# Instale as dependências
 $ yarn
 
-# Run the project
+# Rode esse projeto
 $ yarn start
 
-# The server will initialize in the <http://localhost:3000>
+# O servidor irá iniciar em <http://localhost:3000>
 ```
-## :memo: License
+## :memo: Licença
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-Made with :heart: by <a href="https://github.com/Liga-dos-Programadores" target="_blank">Liga dos Programadores</a>
-
+Esse projeto está sobre licença de GPL-3.0. Para mais detalhes, olhe o arquivo [LICENSE](LICENSE.md).
 &#xa0;
-
-<a href="#top">Back to top</a>
+<a href="#top">Voltar para topo</a>
