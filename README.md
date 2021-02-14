@@ -62,7 +62,7 @@ $ yarn start
 ```
 ## :memo: Licença
 
-Esse projeto está sobre licença de GPL-3.0. Para mais detalhes, olhe o arquivo [LICENSE](LICENSE.md).
+Esse projeto está sobre licença de GPL-3.0. Para mais detalhes, olhe o arquivo [LICENSE](LICENSE).
 &#xa0;
 
 <a href="#top">Voltar para topo</a>
