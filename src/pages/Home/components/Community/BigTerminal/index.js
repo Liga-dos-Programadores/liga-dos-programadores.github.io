@@ -7,7 +7,6 @@ import { BiBook } from 'react-icons/bi';
 import { AiOutlineFlag } from 'react-icons/ai';
 
 import Polygons from '@components/Polygons';
-
 import * as S from './styled';
 
 export default function SmallTerminal() {
@@ -34,6 +33,13 @@ export default function SmallTerminal() {
             <AiOutlineFlag size={35} />
           </S.Icon>
         </S.Icons>
+        <S.ContentText>
+          <S.IconSelected />
+          <S.Text>
+            Mesmo que o foco principal da comunidade seja as linguagens de
+            programação, também tratamos de diversos outros assuntos
+          </S.Text>
+        </S.ContentText>
       </S.Screen>
     </S.TerminalContainer>
   );
