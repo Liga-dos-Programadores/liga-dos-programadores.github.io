@@ -61,6 +61,11 @@ export const ContentText = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+
+  > img {
+    margin: 15px auto;
+  }
 `;
 
 export const Text = styled.p`
