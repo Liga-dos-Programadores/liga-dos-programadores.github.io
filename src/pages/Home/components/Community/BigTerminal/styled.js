@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import logoIcon from '@assets/images/logo.png';
 
 export const TerminalContainer = styled.div`
   display: flex;
@@ -69,9 +68,9 @@ export const Text = styled.p`
   width: 80%;
 `;
 
-export const IconSelected = styled.img.attrs({
-  src: logoIcon
-})`
-  height: 200px;
-  margin-bottom: 20px;
-`;
+// export const IconSelected = styled.img.attrs({
+//   src: logoIcon
+// })`
+//   height: 200px;
+//   margin-bottom: 20px;
+// `;

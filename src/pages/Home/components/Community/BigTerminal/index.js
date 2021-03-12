@@ -7,9 +7,26 @@ import { BiBook } from 'react-icons/bi';
 import { AiOutlineFlag } from 'react-icons/ai';
 
 import Polygons from '@components/Polygons';
+
+import icon1 from '@assets/images/BigTerminal/icon1.png';
+import icon2 from '@assets/images/BigTerminal/icon2.png';
+import icon3 from '@assets/images/BigTerminal/icon3.png';
+import icon4 from '@assets/images/BigTerminal/icon4.png';
+import icon5 from '@assets/images/BigTerminal/icon5.png';
+
 import * as S from './styled';
 
 export default function SmallTerminal() {
+  const [iconSelected, setIconSelected] = React.useState();
+  const [textSelected, setTextSelected] = React.useState();
+
+  function changeContent(index) {
+    const icons = [icon1, icon2, icon3, icon4, icon5];
+    const texts = ['texto1', 'texto2', 'texto3', 'texto4', 'texto5'];
+    setIconSelected(icons[index]);
+    setTextSelected(texts[index]);
+  }
+
   return (
     <S.TerminalContainer>
       <S.TerminalMenu>
@@ -18,27 +35,25 @@ export default function SmallTerminal() {
       <S.Screen>
         <S.Icons>
           <S.Icon>
-            <RiRocket2Line size={35} />
+            <RiRocket2Line onClick={() => changeContent(0)} size={35} />
           </S.Icon>
           <S.Icon>
-            <HiHashtag size={35} />
+            <HiHashtag onClick={() => changeContent(1)} size={35} />
           </S.Icon>
           <S.Icon>
-            <FaRegCommentDots size={35} />
+            <FaRegCommentDots onClick={() => changeContent(2)} size={35} />
           </S.Icon>
           <S.Icon>
-            <BiBook size={35} />
+            <BiBook onClick={() => changeContent(3)} size={35} />
           </S.Icon>
           <S.Icon>
-            <AiOutlineFlag size={35} />
+            <AiOutlineFlag onClick={() => changeContent(4)} size={35} />
           </S.Icon>
         </S.Icons>
+
         <S.ContentText>
-          <S.IconSelected />
-          <S.Text>
-            Mesmo que o foco principal da comunidade seja as linguagens de
-            programação, também tratamos de diversos outros assuntos
-          </S.Text>
+          <img src={iconSelected} width="100px" alt="oie" />
+          <S.Text>{textSelected}</S.Text>
         </S.ContentText>
       </S.Screen>
     </S.TerminalContainer>
