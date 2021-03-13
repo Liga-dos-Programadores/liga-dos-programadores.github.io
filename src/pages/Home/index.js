@@ -6,6 +6,7 @@ import Footer from '@components/Footer';
 import Hero from './components/Hero';
 import Community from './components/Community';
 import Projects from './components/Projects';
+import Team from './components/Team';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Community />
         <Projects />
+        <Team />
       </Container>
       <Footer />
     </>

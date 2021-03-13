@@ -5,7 +5,7 @@ import ProjectA from './ProjectA';
 
 import * as S from './styled';
 
-export default function Features() {
+export default function Projects() {
   return (
     <>
       <S.ProjectsTitle>Nossos projetos</S.ProjectsTitle>

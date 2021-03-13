@@ -14,12 +14,6 @@ function Menu({ open }) {
         </li>
 
         <li>
-          <S.StyledLink activeClassName="is-active" to="/blog" exact>
-            Blog
-          </S.StyledLink>
-        </li>
-
-        <li>
           <S.StyledLink activeClassName="is-active" to="/comunidade" exact>
             Comunidade
           </S.StyledLink>
@@ -27,7 +21,7 @@ function Menu({ open }) {
 
         <li>
           <S.StyledLink activeClassName="is-active" to="/codiga" exact>
-            LigaCode
+            Codiga
           </S.StyledLink>
         </li>
       </ul>
