@@ -42,6 +42,7 @@ export const Icons = styled.div`
   border-bottom-left-radius: 5px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  cursor: pointer;
 
   @media (max-width: 768px) {
     width: 327px;
@@ -53,3 +54,28 @@ export const Icon = styled.ul`
   display: flex;
   margin: 20px 0;
 `;
+
+export const ContentText = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+  > img {
+    margin: 15px auto;
+  }
+`;
+
+export const Text = styled.p`
+  color: #fff;
+  width: 80%;
+`;
+
+// export const IconSelected = styled.img.attrs({
+//   src: logoIcon
+// })`
+//   height: 200px;
+//   margin-bottom: 20px;
+// `;
