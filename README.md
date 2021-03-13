@@ -11,9 +11,11 @@
     <img src="https://img.shields.io/github/contributors/Liga-dos-Programadores/liga-dos-programadores.github.io?color=%2329C9FC&label=Contribuidores&logo=Github&style=flat-square" alt="Contribuidores" />
   </a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-    <img alt="License" src="https://img.shields.io/github/license/Liga-dos-Programadores/liga?color=%2329C9FC&label=Licença&logo=Github&style=flat-square">
+    <img alt="Licença" src="https://img.shields.io/github/license/Liga-dos-Programadores/liga-dos-programadores.github.io?color=%2329C9FC&label=License&logo=Github&style=flat-square">
   </a>
-    <img alt="Repository size" src="https://img.shields.io/github/repo-size/Liga-dos-Programadores/liga?color=%2329C9FC&label=Tamanho do repositório&style=flat-square">
+  <a>
+    <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/liga-dos-programadores/liga-dos-programadores.github.io?color=%2329C9FC&label=Tamanho%20do%20reposit%C3%B3rio&logo=github&style=flat-square">
+  </a>
 </p>
 
 <p align="center">
@@ -21,7 +23,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
-  <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
+  <a href="#memo-licença">Licença</a> &#xa0;
 </p>
 
 <br>
@@ -60,6 +62,7 @@ $ yarn start
 ```
 ## :memo: Licença
 
-Esse projeto está sobre licença de GPL-3.0. Para mais detalhes, olhe o arquivo [LICENSE](LICENSE.md).
+Esse projeto está sobre licença de GPL-3.0. Para mais detalhes, olhe o arquivo [LICENSE](LICENSE).
 &#xa0;
+
 <a href="#top">Voltar para topo</a>
