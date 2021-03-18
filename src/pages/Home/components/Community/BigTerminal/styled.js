@@ -45,7 +45,7 @@ export const Icons = styled.div`
   cursor: pointer;
 
   @media (max-width: 768px) {
-    width: 327px;
+    width: 25%;
     text-align: left;
   }
 `;

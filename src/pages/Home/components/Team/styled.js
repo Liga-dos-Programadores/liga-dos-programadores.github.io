@@ -33,6 +33,10 @@ export const TilteTeam = styled.h2`
 export const Teamates = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 38%);
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 100%);
+  }
 `;
 
 export const Teammate = styled.div`
