@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { FiChevronRight } from 'react-icons/fi';
+
 import * as S from './styled';
 
 export default function Text() {
@@ -21,6 +23,7 @@ export default function Text() {
         alt="Discord da Liga dos Programadores"
       >
         Quero Fazer parte
+        <FiChevronRight size={35} />
       </S.Button>
     </S.TextContainer>
   );

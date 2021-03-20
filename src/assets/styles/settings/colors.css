@@ -1,10 +1,13 @@
 :root {
-  --color-background: #2e3440;
+  --main-background: #13171E;
+  --color-blue: #03bbfb;
+  --button-background: #4ED4FF;
+  --button-font: #22596A;
+  --color-terminal-menu: #252831;
+  --color-terminal-screen: #1e2027;
   --color-background-dark: #13151a;
-  --color-terminal-menu: #1a1c22;
   --color-card-team: #121419;
   --color-white: #ffffff;
   --color-gray: #adaeaf;
-  --color-blue: #03bbfb;
   --color-light-blue: #41d0ff;
 }

@@ -47,17 +47,19 @@ export const TerminalMenu = styled.div`
 `;
 
 export const Screen = styled.div`
-  background: var(--color-background-dark);
+  background-color: var(--color-terminal-screen);
   width: 400px;
   margin: 0 auto;
   padding: 20px;
   border-top: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  font-size: 2.5em;
 
   .prompt {
     color: #5f5f5e;
     margin-right: 7px;
+    font-size: 1em;
   }
 
   @media (max-width: 768px) {

@@ -17,7 +17,7 @@ const terminals = [
   },
   {
     color: '#f6d27c',
-    steps: ['gcc -o main.c liga', 5000, 'npm install liga', 800]
+    steps: ['gcc -o main.c liga', 5000, 'npm run serve', 800]
   }
 ];
 

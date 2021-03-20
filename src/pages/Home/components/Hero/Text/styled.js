@@ -6,8 +6,8 @@ export const TextContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 45px;
-  line-height: 4.5rem;
+  font-size: 6.4em;
+  line-height: 1.3em;
   font-weight: bold;
 
   @media (max-width: 768px) {
@@ -18,9 +18,9 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   color: var(--color-gray);
-  font-size: 23px;
-  line-height: 2.5rem;
-  margin: 10px 0;
+  font-size: 3.3em;
+  line-height: 3rem;
+  margin: 1em 0;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -29,17 +29,21 @@ export const Description = styled.p`
 `;
 
 export const Button = styled.a`
-  font-size: 21px;
+  font-size: 3.3em;
   font-weight: 500;
-  color: var(--color-white);
-  background-color: var(--color-blue);
   margin: 19px 0 0;
-  padding: 16px 35px;
+  padding: 12px 35px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius:50px;
   transition: all 150ms linear 0s;
-  width: 40%;
+  width: 45%;
   text-align: center;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--button-font);
+  background-color: var(--button-background);
   :hover {
     background-color: var(--color-light-blue);
     cursor: pointer;
@@ -48,4 +52,10 @@ export const Button = styled.a`
   @media (max-width: 768px) {
     width: 82%;
   }
+`;
+
+export const AlignButton = styled.div`
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
 `;

@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const ContainerWrapper = styled.div`
   width: 90%;
-  max-width: 1250px;
+  max-width: 1230px;
   margin: 0 auto;
-  background-color: var(--color-background);
+  background-color: var(--main-background);
 
   @media (max-width: 1124px) {
     max-width: 850px;

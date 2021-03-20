@@ -7,6 +7,7 @@ export const Header = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-size: 2.5em;
 
   @media (max-width: 768px) {
     margin: 25px 0 50px 0;

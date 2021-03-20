@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Terminal = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 191px;
   top: 0;
   right: 0;
 
@@ -13,7 +12,7 @@ export const Terminal = styled.div`
 `;
 
 export const TerminalMenu = styled.div`
-  width: 400px;
+  width: 500px;
   height: 30px;
   background-color: var(--color-terminal-menu);
   margin: 0 auto;
@@ -26,8 +25,8 @@ export const TerminalMenu = styled.div`
 `;
 
 export const Screen = styled.div`
-  background: var(--color-background-dark);
-  width: 400px;
+  background: var(--color-terminal-screen);
+  width: 500px;
   margin: 0 auto;
   padding: 20px;
   border-top: none;

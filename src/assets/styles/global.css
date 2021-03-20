@@ -20,7 +20,9 @@ body {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--color-background);
+  background: var(--main-background);
   color: #DDDDDD;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  font-size: 62%;
 }

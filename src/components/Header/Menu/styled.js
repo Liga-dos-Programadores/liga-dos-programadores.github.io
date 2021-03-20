@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   ul {
     list-style: none;
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
     @media (max-width: 768px) {
       flex-flow: column nowrap;
