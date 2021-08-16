@@ -28,6 +28,12 @@ export const Nav = styled.nav`
       transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(100%)')};
     }
   }
+
+  li {
+    @media (max-width: 768px) {
+      padding: 20px;
+    }
+  }
 `;
 
 export const StyledLink = styled.a`
