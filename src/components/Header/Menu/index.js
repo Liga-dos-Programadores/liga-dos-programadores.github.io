@@ -1,29 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import { Link } from 'react-router-dom';
 import * as S from './styled';
 
 function Menu({ open }) {
   return (
     <S.Nav open={open}>
       <ul>
-        <li>
-          <S.StyledLink activeClassName="is-active" to="/" exact>
+        <Link to="/">
+          <li>
             Início
-          </S.StyledLink>
-        </li>
-
-        <li>
-          <S.StyledLink activeClassName="is-active" to="/comunidade" exact>
+          </li>
+        </Link>
+        <Link to="/comunity">
+          <li>
             Comunidade
-          </S.StyledLink>
-        </li>
-
-        <li>
-          <S.StyledLink activeClassName="is-active" to="/codiga" exact>
+          </li>
+        </Link>
+        <Link to="/codiga">
+          <li>
             Codiga
-          </S.StyledLink>
-        </li>
+          </li>
+        </Link>
       </ul>
     </S.Nav>
   );

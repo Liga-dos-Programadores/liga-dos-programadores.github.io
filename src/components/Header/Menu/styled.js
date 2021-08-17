@@ -29,10 +29,45 @@ export const Nav = styled.nav`
     }
   }
 
+  a {
+    text-decoration: none;
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+  }
+
   li {
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #fff;
+    transition: all 150ms linear 0s;
+    position: relative;
+    cursor: pointer;
     @media (max-width: 768px) {
       padding: 20px;
     }
+  }
+
+  li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    margin: -10px 0;
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.4s ease-in-out 0s;
+  }
+
+  li:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
   }
 `;
 
