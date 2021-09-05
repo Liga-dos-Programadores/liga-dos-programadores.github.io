@@ -8,7 +8,7 @@ export const TerminalContainer = styled.div`
 export const TerminalMenu = styled.div`
   width: 551px;
   background-color: var(--color-terminal-menu);
-  height: 38px;
+  height: 30px;
   border: none;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -36,13 +36,12 @@ export const Screen = styled.div`
   }
 `;
 
-export const Icons = styled.div`
-  background-color: var(--color-terminal-menu);
-  padding: 20px;
+export const Icons = styled.ul`
+  background-color: #181D26;
+  padding: 15px;
   border-bottom-left-radius: 5px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  cursor: pointer;
 
   @media (max-width: 768px) {
     width: 25%;
@@ -50,9 +49,16 @@ export const Icons = styled.div`
   }
 `;
 
-export const Icon = styled.ul`
+export const Icon = styled.li`
   display: flex;
-  margin: 20px 0;
+  margin: 25px 0;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 150ms linear 0s;
+  :hover {
+    color: var(--color-blue);
+    cursor: pointer;
+  }
 `;
 
 export const ContentText = styled.div`
@@ -71,6 +77,8 @@ export const ContentText = styled.div`
 export const Text = styled.p`
   color: #fff;
   width: 80%;
+  font-size: 15px;
+  line-height: 20px;
 `;
 
 // export const IconSelected = styled.img.attrs({

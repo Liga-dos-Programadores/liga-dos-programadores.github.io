@@ -1,5 +1,4 @@
 import React from 'react';
-import Iframe from 'react-iframe';
 
 import BigTerminal from './BigTerminal';
 import Text from './Text';
@@ -13,7 +12,7 @@ export default function Features() {
         <S.TitleAlign>
           <S.Span>&lt;</S.Span>
           A comunidade
-          <S.Span>/&gt;</S.Span>
+          <S.Span>&nbsp;/&gt;</S.Span>
         </S.TitleAlign>
       </S.CommunityTitle>
       <S.CommunityContainer>

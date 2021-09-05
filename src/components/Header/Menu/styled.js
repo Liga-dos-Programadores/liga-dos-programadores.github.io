@@ -63,6 +63,9 @@ export const Nav = styled.nav`
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.4s ease-in-out 0s;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   li:hover:before {

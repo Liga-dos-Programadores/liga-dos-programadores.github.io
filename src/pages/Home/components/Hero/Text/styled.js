@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 180px;
+  @media (max-width: 768px) {
+    margin-right: 0;
+  }
 `;
 
 export const Title = styled.h1`
@@ -23,8 +27,8 @@ export const Description = styled.p`
   margin: 1em 0;
 
   @media (max-width: 768px) {
-    font-size: 20px;
-    line-height: 2rem;
+    font-size: 17px;
+    line-height: 2.5rem;
   }
 `;
 
@@ -48,9 +52,11 @@ export const Button = styled.a`
     background-color: var(--color-light-blue);
     cursor: pointer;
   }
-
+  justify-content: space-between;
   @media (max-width: 768px) {
-    width: 82%;
+    font-size: 3em;
+    width: 85%;
+    padding: 10px 26px;
   }
 `;
 

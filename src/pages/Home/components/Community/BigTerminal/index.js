@@ -22,7 +22,7 @@ export default function SmallTerminal() {
 
   function changeContent(index) {
     const icons = [icon1, icon2, icon3, icon4, icon5];
-    const texts = ['texto1', 'texto2', 'texto3', 'texto4', 'texto5'];
+    const texts = ['Se você tem interesse em começar ou já está começando na jornada de ser um programador ou uma programadora nunca é tarde para começar, não desista dos seus sonhos!', 'texto2', 'texto3', 'texto4', 'texto5'];
     setIconSelected(icons[index]);
     setTextSelected(texts[index]);
   }
@@ -52,7 +52,7 @@ export default function SmallTerminal() {
         </S.Icons>
 
         <S.ContentText>
-          <img src={iconSelected} width="100px" alt="oie" />
+          <img src={iconSelected} width="150px" alt="Imagem" />
           <S.Text>{textSelected}</S.Text>
         </S.ContentText>
       </S.Screen>

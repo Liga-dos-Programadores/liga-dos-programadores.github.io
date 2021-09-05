@@ -7,9 +7,9 @@ export const TextContainer = styled.div`
 `;
 
 export const Description = styled.p`
-  color: var(--color-white);
-  font-size: 23px;
-  line-height: 2.5rem;
+  color: var(--color-gray);
+  font-size: 3.3em;
+  line-height: 3rem;
   text-align: left;
 
   @media (max-width: 768px) {

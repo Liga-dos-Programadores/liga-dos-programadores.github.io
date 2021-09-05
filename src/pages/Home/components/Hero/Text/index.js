@@ -20,10 +20,10 @@ export default function Text() {
         href={discordUrl}
         target="_blank"
         rel="noopener"
-        alt="Discord da Liga dos Programadores"
+        alt="Servidor do Discord da Liga dos Programadores"
       >
         Quero Fazer parte
-        <FiChevronRight size={35} />
+        <FiChevronRight size={32} />
       </S.Button>
     </S.TextContainer>
   );

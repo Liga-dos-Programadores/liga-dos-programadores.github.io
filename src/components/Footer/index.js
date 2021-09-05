@@ -12,17 +12,20 @@ export default function Footer() {
 
   return (
     <S.FooterContainer>
-      <S.Up>
-        <S.Logo>
-          <LigaLogo to="/" exact />
-          Liga dos Programadores
-        </S.Logo>
-
-        <SocialMedia />
-      </S.Up>
-      <S.Down>
-        <S.Copyright>{copyRightString}</S.Copyright>
-      </S.Down>
+      <S.FooterContent>
+        <S.Up>
+          <S.Logo>
+            <LigaLogo to="/" exact />
+            <S.LogoText>
+              Liga dos Programadores
+            </S.LogoText>
+          </S.Logo>
+          <SocialMedia />
+        </S.Up>
+        <S.Down>
+          <S.Copyright>{copyRightString}</S.Copyright>
+        </S.Down>
+      </S.FooterContent>
     </S.FooterContainer>
   );
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const CommunityTitle = styled.h2`
   text-align: center;
-  font-size: 5em;
+  font-size: 4.2em;
   font-weight: 600;
   margin-bottom: 100px;
   color: var(--color-white);
@@ -13,7 +13,8 @@ export const CommunityTitle = styled.h2`
 `;
 
 export const TitleAlign = styled.h2`
-  display: flex;
+  display: inline-box;
+  display: -webkit-inline-box;
 `;
 
 export const Span = styled.div`

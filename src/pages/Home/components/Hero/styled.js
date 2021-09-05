@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const HeroContainer = styled.div`
   display: flex;
   margin-bottom: 100px;
-
   @media (max-width: 768px) {
     flex-wrap: wrap;
   }
@@ -24,7 +23,6 @@ export const TerminalContainer = styled.div`
 export const Terminal = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 191px;
   top: 0;
   right: 0;
 

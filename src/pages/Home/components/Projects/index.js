@@ -8,7 +8,13 @@ import * as S from './styled';
 export default function Projects() {
   return (
     <>
-      <S.ProjectsTitle>Nossos projetos</S.ProjectsTitle>
+      <S.ProjectsTitle>
+        <S.TitleAlign>
+          <S.Span>&lt;</S.Span>
+          Nossos projetos
+          <S.Span>&nbsp;/&gt;</S.Span>
+        </S.TitleAlign>
+      </S.ProjectsTitle>
       <S.ProjectsContainer>
         <Text />
         <ProjectA />

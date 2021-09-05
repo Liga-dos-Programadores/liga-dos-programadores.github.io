@@ -1,21 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import {
-  ContentTeam,
-  TilteTeam,
-  Teamates,
-  Teammate,
-  TeammateImage,
-  TeammateName,
-  TeammateAbout,
-  TeammateUsername,
-  IconsGroup,
-  GithubIcon,
-  LinkA,
-  WebsiteIcon,
-  TwitterIcon
-} from './styled';
+import * as S from './styled';
 
 // import { AiFillGithub } from 'react-icons/ai';
 
@@ -52,46 +38,52 @@ export default function Team() {
   }, []);
 
   return (
-    <ContentTeam>
-      <TilteTeam>Nossa Equipe</TilteTeam>
-      <Teamates>
+    <S.ContentTeam>
+      <S.TeamTitle>
+        <S.TitleAlign>
+          <S.Span>&lt;</S.Span>
+          Nossa Equipe
+          <S.Span>&nbsp;/&gt;</S.Span>
+        </S.TitleAlign>
+      </S.TeamTitle>
+      <S.Teamates>
         {infoTeam.map((index) => (
-          <Teammate>
-            <TeammateImage src={index.avatar} alt={index.username} />
-            <TeammateName>
+          <S.Teammate>
+            <S.TeammateImage src={index.avatar} alt={index.username} />
+            <S.TeammateUsername>
               {index.name}
-              <TeammateUsername>{index.username}</TeammateUsername>
-            </TeammateName>
-            <IconsGroup>
-              <LinkA
+              <S.TeammateName>{index.username}</S.TeammateName>
+            </S.TeammateUsername>
+            <S.IconsGroup>
+              <S.LinkA
                 href={`https://github.com/${index.username}`}
                 target="_blank"
               >
-                <GithubIcon />
-              </LinkA>
+                <S.GithubIcon />
+              </S.LinkA>
 
               {index.website ? (
-                <LinkA href={index.website} target="_blank">
-                  <WebsiteIcon />
-                </LinkA>
+                <S.LinkA href={index.website} target="_blank">
+                  <S.WebsiteIcon />
+                </S.LinkA>
               ) : (
                 <></>
               )}
 
               {index.twitter ? (
-                <LinkA
+                <S.LinkA
                   href={`https://twitter.com/${index.twitter}`}
                   target="_blank"
                 >
-                  <TwitterIcon />
-                </LinkA>
+                  <S.TwitterIcon />
+                </S.LinkA>
               ) : (
                 <></>
               )}
-            </IconsGroup>
-          </Teammate>
+            </S.IconsGroup>
+          </S.Teammate>
         ))}
-      </Teamates>
-    </ContentTeam>
+      </S.Teamates>
+    </S.ContentTeam>
   );
 }
